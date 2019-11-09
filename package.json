@@ -1,0 +1,50 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
+  "description": "Tiny Node Js Static Web Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C0mogu/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C0mogu/anydoor/issues"
+  },
+  "homepage": "https://github.com/C0mogu/anydoor#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-html": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-typescript": "^0.14.0",
+    "eslint-plugin-vue": "^6.0.0",
+    "pre-commit": "^1.2.2",
+    "typescript": "^3.7.2",
+    "typescript-eslint-parser": "^22.0.0",
+    "vue-eslint-parser": "^6.0.4"
+  }
+}
