@@ -1,6 +1,6 @@
 {
-  "name": "anydoor",
-  "version": "0.1.1",
+  "name": "anydoor1120",
+  "version": "0.1.4",
   "eslintConfig": {
     "env": {
       "browser": true,
@@ -10,7 +10,7 @@
   "description": "Tiny Node Js Static Web Server",
   "main": "src/app.js",
   "bin": {
-    "anydoor": "bin/anydoor"
+    "anydoor1120": "bin/anydoor1120"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
