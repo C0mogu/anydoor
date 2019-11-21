@@ -1,4 +1,4 @@
-module.exports = {
+﻿module.exports = {
   env: {
     browser: false,
     es6: true,
@@ -17,10 +17,11 @@ module.exports = {
     sourceType: 'script'
   },
   plugins: [
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'html'
   ],
   rules: {"no-console": [2,{
-    "allow": ["erro", "warn", "info"]
+    "allow": ["error", "warn", "info"]
   }]
   }
 }
